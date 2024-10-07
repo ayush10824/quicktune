@@ -1,0 +1,57 @@
+/* * {
+	margin: 0;
+	padding: 0;
+}
+
+.App {
+	text-align: center;
+} */
+/* In App.css */
+/* Reset browser defaults */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+/* Component-specific styles */
+.quick-tune-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.song-list {
+  list-style: none;
+  padding: 0;
+}
+
+.song-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.song-item-title {
+  font-weight: bold;
+}
+
+.song-item-artist {
+  color: #999;
+}
+
+.similar-songs-list {
+  margin-top: 20px;
+}
+
+/* Responsive design (if needed) */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}

@@ -1,4 +1,4 @@
-#Website [Link](https://avikmusix.netlify.app/)
+Tune in to QUICK TUNE to listen to music blazing fast.
 
 # Getting Started with Create React App
 
